@@ -18,7 +18,36 @@ for(int i = 0; i < num.length; i++){
   }
 }
 ```
-In this line of code there is a array that holds 4 different numbers. If you want to see if each number in the array is greater than 25 you will have to create a for loop that will go through each number and put and if statement. The code will print out 30 and 40 because they are greater tahn 25. 
+In this line of code there is a array that holds 4 different numbers. If you want to see if each number in the array is greater than 25 you will have to create a for loop that will go through each number and put and if statement. The code will print out 30 and 40 because they are greater than 25. 
 
 ### Challenge 2
+Another challegne I ahd when learning about Arrays is 
+
+
+
+
+### Challenge 3
+
+
+
+
+
+### Challenge 4
+When finished with the unit 6 materials, we had to take a unit test to test our knowldege in Arrays. In this test time was a challenge for me because I would sometimes find myself focusing on one questions for a long time and not having time to look at the other questions. In this challegnge I will take you through some of the questions I had had wrong and explain the correct answer. 
+
+#### Challenge 4.1
+
+#### Challenge 4.1
+
+#### Challenge 4.1
+
+
+
+### Takeaways 
+
+
+
+
+
+
 
