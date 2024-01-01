@@ -21,7 +21,8 @@ for(int i = 0; i < num.length; i++){
 In this line of code there is a array that holds 4 different numbers. If you want to see if each number in the array is greater than 25 you will have to create a for loop that will go through each number and put and if statement. The code will print out 30 and 40 because they are greater than 25. 
 
 ### Challenge 2
-Another challegne I ahd when learning about Arrays is 
+Another challegne I ahd when learning about Arrays is modifying strings or numbers in an array. For example deletion, shifting elements, and reversing elements. This is confusing because I don't understand how it works but I know what code to use when I need to do it. So I went to [Phython tutor](https://pythontutor.com/visualize.html#mode=edit) since is shows the steps in the code. 
+
 
 
 
@@ -44,7 +45,9 @@ When finished with the unit 6 materials, we had to take a unit test to test our 
 
 
 ### Takeaways 
-
+* Watch youtube videos when you don't get a certain concept because there is a lot of resources online
+* Always review the questions you got wrong in the exam because that is how you learn
+* 
 
 
 
