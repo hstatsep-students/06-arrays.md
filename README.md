@@ -25,22 +25,31 @@ Another challegne I ahd when learning about Arrays is modifying strings or numbe
 
 
 
-
-
 ### Challenge 3
-
-
-
-
-
-### Challenge 4
 When finished with the unit 6 materials, we had to take a unit test to test our knowldege in Arrays. In this test time was a challenge for me because I would sometimes find myself focusing on one questions for a long time and not having time to look at the other questions. In this challegnge I will take you through some of the questions I had had wrong and explain the correct answer. 
 
-#### Challenge 4.1
+#### Challenge 3.1
+Consider the following instance variable and method.
+```Java
+private String[] words;
 
-#### Challenge 4.1
+public void mystery(int n)
+{
+  for (int k = n; k < words.length - 1; k++)
+  {
+    words[k] = words[k + 1].substring(0, n);
+  }
+}
+```
+Assume that words has been initialized with the following values.
 
-#### Challenge 4.1
+`{"dragon", "ogre", "troll", "goblin", “knight”} `
+Which of the following represents the contents of the array words as a result of the call `mystery(1)`?
+<br>For this question I got this wrong because I chose `{“d”, “o”, “t”, “g”, “knight”}` this is incorrect because the for loop does not start in the beginning.</br>
+
+#### Challenge 3.2
+
+#### Challenge 3.3
 
 
 
