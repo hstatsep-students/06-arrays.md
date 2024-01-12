@@ -41,14 +41,41 @@ public void mystery(int n)
   }
 }
 ```
-Assume that words has been initialized with the following values.
-
-`{"dragon", "ogre", "troll", "goblin", “knight”} `
-Which of the following represents the contents of the array words as a result of the call `mystery(1)`?
+Assume that words has been initialized with the following values. `{"dragon", "ogre", "troll", "goblin", “knight”} `. Which of the following represents the contents of the array words as a result of the call `mystery(1)`?
 <br>For this question I got this wrong because I chose `{“d”, “o”, “t”, “g”, “knight”}` this is incorrect because the for loop does not start in the beginning.</br>
 
 #### Challenge 3.2
+Consider the following instance variable and method.
+```java
+private int[] nums;
 
+/** print the elements in nums which are a multiple of three */
+public void printMultiplesOfThree()
+{
+  /* missing code */
+}
+```
+Which of the following replacements for /* missing code */ correctly implements the method printMultiplesOfThree()?
+<br>For this question I got this wrong because I chose</br>
+```java
+for (int k = 0; k < nums.length; k++)
+{
+  if (k % 3 == 0)
+  {
+    System.out.println(nums[k]);
+  }
+```
+This is wrong because in this code it is checking k and not num[k]. The correct answer is this
+```java
+for (int x : nums)
+{
+  if (x % 3 == 0)
+  {
+    System.out.println(x);
+  }
+}
+```
+This choice goes through every answer and checks if it is divisbile by 3.
 #### Challenge 3.3
 
 
