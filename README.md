@@ -77,13 +77,28 @@ for (int x : nums)
 ```
 This choice goes through every answer and checks if it is divisbile by 3.
 #### Challenge 3.3
-
-
+Consider the following instance variable and method.
+```java
+private int[] nums;
+/** @param val any int value
+*/
+public int mystery(int val)
+{
+  int k = 0;
+  while (k < nums.length && nums[k] < val)
+  {
+    k++;
+  }
+  return k;
+}
+```
+Suppose that the call mystery(8) returns a value of 5. Which of the following MUST be true about nums?
+<br>I answered this `The element at index 6 has a value greater than or equal to 8.` but the correct answer is `The elements at indices from 0 to 4 inclusive in nums are all less than 8` because in my choice I cant find the value of index 6.</br>
 
 ### Takeaways 
 * Watch youtube videos when you don't get a certain concept because there is a lot of resources online
 * Always review the questions you got wrong in the exam because that is how you learn
-* 
+* Make notes throughout the unit because they can be helpful for test days
 
 
 
